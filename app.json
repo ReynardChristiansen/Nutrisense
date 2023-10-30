@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "Nutrisense",
+    "slug": "Nutrisense",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splashscreen/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashscreen/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Nutrisense needs access to your Camera.",
+        "NSMicrophoneUsageDescription": "Nutrisense needs access to your Microphone.",
+        "NSPhotoLibraryUsageDescription": "Allow Nutrisense to access your photos.",
+        "NSPhotoLibraryAddUsageDescription": "Allow Nutrisense to save photos."
+      },
+      "bundleIdentifier": "com.natureswitch.nutrisense"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splashscreen/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ],
+      "package": "com.natureswitch.nutrisense"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow Nutrisense to access your photos.",
+          "savePhotosPermission": "Allow Nutrisense to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "aa161d52-6a5b-4eac-afa1-08fcfe58a9ad"
+      }
+    }
+  }
+}
