@@ -1,15 +1,4 @@
-# Peneliti Kentang Mobile App
 
-Welcome to Peneliti Kentang's mobile application repository built with React Native and Expo CLI.
-
-For the backend, please refer to the [YOLO](https://github.com/PotatoKentang/YouOnlyLickOnce) repository
-
-## 🤝 Introducing Our Members
-- Patrick Kwon
-- Retno Shintya Hariyani
-- Marvelio Keven Wen
-- Reynard Christiansen
-- Jefferson Juan
 
 ## 🌟 Application Purpose
 The purpose of our mobile app is to prevent malnutrition by providing necessary information about nutrition. Our app has three main features:
@@ -17,11 +6,6 @@ The purpose of our mobile app is to prevent malnutrition by providing necessary 
 - **Camera:** The camera feature can detect food and provide information about the food.
 - **Nutrition Calculator:** The nutrition calculator can be used through the UI or text-based, and it calculates the total nutrition of the foods/ingredients.
 - **Blog Section:** The blog section provides blogs about malnutrition.
-
-
-## 🔗 Product (mind you that the product periodically changes as the backend is not deployed, please refer to the [YOLO](https://github.com/) for the backend)
-- [Nutrisense](https://expo.dev/accounts/neurologia/projects/Nutrisense/builds/085e6ed7-24e1-4787-add3-1c55392d73f)
-- [Video Demo](https://drive.google.com/file/d/1M1fsAdHqZXFXFi9Z76hH7TPALk4mBobM/view)
 
 ## 📊 Requirements
 
