@@ -7,6 +7,9 @@ The purpose of our mobile app is to prevent malnutrition by providing necessary 
 - **Nutrition Calculator:** The nutrition calculator can be used through the UI or text-based, and it calculates the total nutrition of the foods/ingredients.
 - **Blog Section:** The blog section provides blogs about malnutrition.
 
+![image alt](https://reynardchristiansen.github.io/porto/assets/project-3.png)
+
+
 ## 📊 Requirements
 
 - Node & NPM
